@@ -24,7 +24,7 @@ It learns a mapping for vertices in an HNSW graph so as to improve nearest neigh
  * First it downloads data from dropbox. You will need up to __50-100Gb__ of disk space because *anonymousauthor* is an idiot.
  * Second, defines an experiment setup. The setups are:
     * `deep100k_only_routing.ipynb` - DEEP100K dataset, 128dcs budget, 96d vectors, no compression
-    * `glove_compression.ipynb` - GLOVE100K dataset, 256dcs budget, 300d vectors, compressed to 75d
+    * `glove100k_compression.ipynb` - GLOVE100K dataset, 256dcs budget, 300d vectors, compressed to 75d
     * An experiment setup
  * Another time-consuming stage is preparing path_cache. 
    * In[7] in both notebooks. 

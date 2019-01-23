@@ -31,6 +31,7 @@ It learns a mapping for vertices in an HNSW graph so as to improve nearest neigh
    * If the process was interrupted or you suspect something is broken, `!rm -rf {cache_path}` and start over.
 
 
-# Good ways to improve training performance
-* Compute optimal routing on the fly with some C/C++/Cython-based algorithm
+# Ways to improve training performance
+* Grab a bigger GPU and/or more CPU cores
 * Multi-GPU training using torch DataParallel module
+* Compute optimal routing on the fly with some C/C++/Cython-based algorithm. And please contribute it to this repo :)

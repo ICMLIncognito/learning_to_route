@@ -6,8 +6,8 @@ It learns a mapping for vertices in an HNSW graph so as to improve nearest neigh
 ![img](https://github.com/ICMLIncognito/learning_to_route/raw/master/images/toy_task.png)
 
 # What do i need to run it?
-* A machine with some CPU (preferably 8+) and a GPU.
-  * Running with no GPU or less than 4 CPU cores may cause premature senility.
+* A machine with some CPU (preferably 8+) and a GPU
+  * Running with no GPU or less than 4 CPU cores may cause premature senility;
 * Some popular Linux x64 distribution
   * Tested on Ubuntu16.04, should work fine on any popular linux64 and even MacOS;
   * Windows and x32 systems may require heavy wizardry to run;
